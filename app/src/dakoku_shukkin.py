@@ -24,7 +24,7 @@ if __name__ == '__main__':
     time.sleep(3)
 
     # 出勤
-    # driver.find_element(by=By.CSS_SELECTOR, value='.record-clock-in').click()
+    driver.find_element(by=By.CSS_SELECTOR, value='.record-clock-in').click()
 
     driver.quit()
 
